@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - 7/8/9 - Super DOTA</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 07
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+            alt="">
+        <h1 class="page-title">Super DOTA
+              <div id="placar"></div>
+                </h1>
+        <button onclick="sortearCarta()" id="btnSortear">Sortear herói</button>
+        <form id="form">
+            <h2>
+                     <div id="quantidade-cartas"></div> 
+              Escolha seu Atributo
+          </h2>
+            <div class="wrapper">
+              <div id="cartas">
+                    <div id="carta-jogador" class="carta"></div>
+                    <div id="carta-maquina" class="carta"></div>
+                </div>
+            </div>          
+            <div class="opcoes" id="opcoes"></div>
+            <button type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+          <div id="resultado"></div>
+           <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Proxima Rodada</button>
+          
+        </form>
+    </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 700px;
+    background-image: url('https://images.immediate.co.uk/production/volatile/sites/25/2020/05/should-we-send-a-spacecraft-to-explore-uranus-4ec2cb4.jpg?quality=90&resize=768,574');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+    
+  h2 {
+    position: absolute;
+    font-size:20px;
+    font-weight:bold;
+    top: 142px;
+    left: calc(32% - 72.5px);
+    width: 500px;
+    text-align:center;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
